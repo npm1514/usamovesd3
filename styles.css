@@ -1,0 +1,24 @@
+body {
+  font-family: "Oswald";
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+
+}
+
+h3 {
+  margin: 0;
+  height: 0;
+  width: 0;
+}
+.map {
+  border: 1px solid #8d8d8d;
+  width: max-content;
+  margin: auto;
+}
+
+.counties:hover, .states:hover, .colorrange:hover {
+  cursor: pointer;
+}

@@ -1,24 +1,113 @@
-body {
+body, button {
   font-family: "Oswald";
   text-align: center;
 }
 
 h1 {
   font-size: 45px;
-
+  margin: 0;
 }
 
 h3 {
+  color: #8d8d8d;
+}
+
+button {
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(43, 210, 100);
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+button:hover, .logo:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 35px;
+  font-family: "Pacifico";
+  padding: 0;
+  width: 250px;
+  height: 69px;
+  background-color: rgba(26, 28, 223, 0.68);
+}
+
+.obesity, .landing, header, footer {
+  width: 90vw;
+  margin: auto;
+}
+
+.obesitymap h3 {
   margin: 0;
   height: 0;
   width: 0;
 }
-.map {
+.obesitymap, .fitnessmap, .educationmap {
   border: 1px solid #8d8d8d;
   width: max-content;
   margin: auto;
+  position: relative;
 }
 
 .counties:hover, .states:hover, .colorrange:hover {
   cursor: pointer;
+}
+
+.landingflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-around;
+
+}
+
+.landingflex div {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.landingflex div h3 {
+  color: #fff;
+}
+
+.run, .smart, .donut, .banner {
+  background-position: center;
+  background-size: cover;
+}
+
+.run:hover, .smart:hover, .donut:hover {
+  cursor: pointer;
+}
+
+.run {
+  background-image: url("./images/runner.jpeg");
+}
+
+.smart {
+  background-image: url("./images/chalkboard.jpeg");
+}
+
+.donut {
+  background-image: url("./images/donuts.jpeg");
+}
+
+.colorrange {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.banner {
+  padding: 10vh;
+  background-image: url("./images/strong.jpeg");
+  color: #fff;
+  height: 20vh;
+}
+
+.percentview h3 {
+  color: #000;
 }
